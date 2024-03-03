@@ -1,0 +1,6 @@
+PayTechRestClient:
+  baseUrl: ${BASE_URL:https://engine-sandbox.pay.tech}
+  token: ${TOKEN:Bearer cAmmvalAikARkB81fgxgMtnMbEdNbuWa}
+  requestType: ${REQUEST_TYPE:application/json}
+  payments: ${DEPOSIT_PATH:/api/v1/payments}
+

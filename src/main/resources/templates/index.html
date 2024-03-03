@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отправка суммы</title>
+</head>
+<body>
+<h2>Введите сумму и нажмите кнопку "Отправить":</h2>
+<form action="/payment" method="post">
+    <label for="amount">Сумма:</label>
+    <input type="text" id="amount" name="amount" required>
+    <input type="hidden" id="paymentType" name="paymentType" value="DEPOSIT">
+    <input type="hidden" id="currency" name="currency" value="EUR">
+    <br><br>
+    <button type="submit">Отправить</button>
+</form>
+</body>
+</html>
